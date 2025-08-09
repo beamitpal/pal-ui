@@ -1,6 +1,6 @@
 {
   "name": "pal-ui",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "bin": {
     "pal-ui": "dist/index.js"
   },
