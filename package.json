@@ -1,0 +1,38 @@
+{
+  "name": "pal-ui",
+  "version": "1.0.21",
+  "bin": {
+    "pal-ui": "dist/index.js"
+  },
+  "files": [
+    "dist/index.js"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "ultracite lint",
+    "format": "ultracite format",
+    "test": "turbo test",
+    "analyze": "turbo analyze",
+    "bump-deps": "npx npm-check-updates --deep -u -x shiki,fumadocs-* && pnpm install",
+    "bump-ui": "npx shadcn@latest add --all --overwrite -c packages/shadcn-ui",
+    "clean": "git clean -xdf node_modules"
+  },
+  "devDependencies": {
+    "@auto-it/first-time-contributor": "^11.3.0",
+    "@biomejs/biome": "2.0.0",
+    "@types/node": "^24.2.1",
+    "turbo": "^2.5.4",
+    "typescript": "^5.8.3",
+    "ultracite": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@10.12.1",
+  "type": "module",
+  "dependencies": {
+    "tsup": "^8.5.0",
+    "zod": "^3.25.64"
+  }
+}

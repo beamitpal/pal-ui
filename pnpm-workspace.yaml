@@ -1,0 +1,11 @@
+packages:
+  - apps/*
+  - packages/*
+
+onlyBuiltDependencies:
+  - '@sentry/cli'
+  - '@swc/core'
+  - '@tailwindcss/oxide'
+  - es5-ext
+  - esbuild
+  - sharp
