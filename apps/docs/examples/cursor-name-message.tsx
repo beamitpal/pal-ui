@@ -12,7 +12,7 @@ const Example = () => (
   <Cursor color="#000000">
     <CursorPointer />
     <CursorBody>
-      <CursorName>Hayden</CursorName>
+      <CursorName>Amit</CursorName>
       <CursorMessage>That looks great!</CursorMessage>
     </CursorBody>
   </Cursor>

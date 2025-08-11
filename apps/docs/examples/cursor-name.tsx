@@ -6,7 +6,7 @@ const Example = () => (
   <Cursor>
     <CursorPointer />
     <CursorBody>
-      <CursorName>Hayden</CursorName>
+      <CursorName>Amit Pal</CursorName>
     </CursorBody>
   </Cursor>
 );

@@ -6,8 +6,8 @@ const Example = () => (
   <Pill>
     <PillAvatarGroup>
       <PillAvatar
-        fallback="HB"
-        src="https://pbs.twimg.com/profile_images/1748718473595789312/PbqJh9hk_400x400.jpg"
+        fallback="AP"
+        src="https://pbs.twimg.com/profile_images/1907941010509869057/js-XKlKV_400x400.jpg"
       />
       <PillAvatar
         fallback="SC"

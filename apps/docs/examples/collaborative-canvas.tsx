@@ -16,7 +16,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 const users = [
   {
     id: 1,
-    name: 'Hayden Bleasel',
+    name: 'Amit Pal',
     avatar: 'https://github.com/beamitpal.png',
   },
   {
