@@ -1,3 +1,16 @@
+# v1.0.35 (Wed Aug 13 2025)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of https://github.com/beamitpal/pal-ui ([@beamitpal](https://github.com/beamitpal))
+- cli changes ([@beamitpal](https://github.com/beamitpal))
+
+#### Authors: 1
+
+- Amit ([@beamitpal](https://github.com/beamitpal))
+
+---
+
 # v1.0.34 (Wed Aug 13 2025)
 
 #### ⚠️ Pushed to `master`
