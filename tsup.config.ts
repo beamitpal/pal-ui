@@ -6,7 +6,7 @@ export default defineConfig({
   sourcemap: false,
   minify: true,
   dts: false, // No need for CLI
-  format: ['cjs', 'esm'],
+  format: ['cjs'],
   clean: true,
   banner: {
     js: '#!/usr/bin/env node',
