@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+
+console.log("CLI running!");
 import { execSync } from 'node:child_process';
 import process from 'node:process';
 import readline from 'node:readline/promises';

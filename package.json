@@ -5,7 +5,7 @@
     "pal-ui": "dist/index.js"
   },
   "files": [
-    "dist/index.js"
+    "dist"
   ],
   "scripts": {
     "build": "turbo build",
