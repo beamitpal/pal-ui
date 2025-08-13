@@ -5,10 +5,6 @@ export default defineConfig({
   outDir: 'dist',
   sourcemap: false,
   minify: true,
-  dts: false, // No need for CLI
-  format: ['cjs'],
-  clean: true,
-  banner: {
-    js: '#!/usr/bin/env node',
-  },
+  dts: true,
+  format: ['cjs', 'esm'],
 });

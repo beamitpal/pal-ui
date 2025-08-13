@@ -2,10 +2,10 @@
   "name": "pal-ui",
   "version": "1.0.35",
   "bin": {
-    "pal-ui": "dist/index.cjs"
+    "pal-ui": "dist/index.js"
   },
   "files": [
-    "dist"
+    "dist/index.js"
   ],
   "scripts": {
     "build": "turbo build",
