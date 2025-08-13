@@ -39,7 +39,7 @@ export const Preview = async ({
 
   const sourceComponentNames =
     parsedCode
-      .match(/@\/components\/ui\/pal-ui\/([^'"`]+)/g)
+      .match(/@\/components\/pal-ui\/([^'"`]+)/g)
       ?.map((match) => match.replace('@/components/ui/pal-ui/', '')) || [];
 
   const sourceComponents: { name: string; source: string }[] = [];
