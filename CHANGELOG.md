@@ -1,3 +1,18 @@
+# v1.0.32 (Wed Aug 13 2025)
+
+#### ⚠️ Pushed to `master`
+
+- updated cli ([@beamitpal](https://github.com/beamitpal))
+- some new components ([@beamitpal](https://github.com/beamitpal))
+- Merge branch 'master' of https://github.com/beamitpal/pal-ui ([@beamitpal](https://github.com/beamitpal))
+- some more changes ([@beamitpal](https://github.com/beamitpal))
+
+#### Authors: 1
+
+- Amit ([@beamitpal](https://github.com/beamitpal))
+
+---
+
 # v1.0.31 (Mon Aug 11 2025)
 
 :tada: This release contains work from a new contributor! :tada:
