@@ -18,12 +18,7 @@ for (const packageName of packageNames) {
 
   console.log(`Adding ${packageName} component...`);
 
-  const url = packageName === 'ai' ?
-    new URL(
-      'elements.json',
-      'https://ai-sdk.dev'
-    ) :
-    new URL(
+  const url = new URL(
       `registry/${packageName}.json`,
       'https://pal-ui.beamitpal.com'
     );
