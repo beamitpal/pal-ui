@@ -94,13 +94,6 @@ const config = {
         destination: '/blocks/collaborative-canvas',
         permanent: false,
       },
-      // { source: '/ai', destination: 'https://ai-sdk.dev/elements?ref=pal-ui', permanent: true },
-      // { source: '/ai/:slug*', destination: 'https://ai-sdk.dev/elements?ref=pal-ui', permanent: true },
-      // {
-      //   source: '/components/ai/:slug*',
-      //   destination: 'https://ai-sdk.dev/elements?ref=pal-ui',
-      //   permanent: true,
-      // },
       {
         source: '/announcement',
         destination: '/components/announcement',
