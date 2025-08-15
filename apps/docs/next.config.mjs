@@ -95,6 +95,11 @@ const config = {
         permanent: false,
       },
       {
+        source: '/blocks',
+        destination: '/blocks/codebase',
+        permanent: false,
+      },
+      {
         source: '/announcement',
         destination: '/components/announcement',
         permanent: true,
@@ -113,6 +118,16 @@ const config = {
       {
         source: '/code-block',
         destination: '/components/code-block',
+        permanent: true,
+      },
+      {
+        source: '/button',
+        destination: '/components/button',
+        permanent: true,
+      },
+      {
+        source: '/tree',
+        destination: '/components/tree',
         permanent: true,
       },
       {

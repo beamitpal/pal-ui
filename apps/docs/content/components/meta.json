@@ -2,6 +2,8 @@
   "root": true,
   "title": "Components",
   "pages": [
+    "---Base---",
+    "button",
     "---Collaboration---",
     "avatar-stack",
     "cursor",

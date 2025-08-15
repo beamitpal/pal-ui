@@ -35,12 +35,12 @@ export const Preview = async ({
 
   const parsedCode = code
     .replace(/@repo\/shadcn-ui\//g, '@/')
-    .replace(/@repo\//g, '@/components/ui/pal-ui/');
+    .replace(/@repo\//g, '@/components/pal-ui/');
 
   const sourceComponentNames =
     parsedCode
       .match(/@\/components\/pal-ui\/([^'"`]+)/g)
-      ?.map((match) => match.replace('@/components/ui/pal-ui/', '')) || [];
+      ?.map((match) => match.replace('@/components/pal-ui/', '')) || [];
 
   const sourceComponents: { name: string; source: string }[] = [];
 
