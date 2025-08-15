@@ -3,7 +3,7 @@
 import { RadioGroup } from '@repo/shadcn-ui/components/ui/radio-group';
 import { cn } from '@repo/shadcn-ui/lib/utils';
 import { CircleIcon } from 'lucide-react';
-import { RadioGroup as RadioGroupPrimitive } from 'radix-ui';
+import * as RadioGroupPrimitive from "@radix-ui/react-radio-group";
 import type { ComponentProps, HTMLAttributes } from 'react';
 import {
   Card,
