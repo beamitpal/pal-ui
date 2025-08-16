@@ -4,6 +4,28 @@ import { join } from 'node:path';
 
 export const getPackage = async (packageName: string) => {
   const packageDir = join(process.cwd(), '..', '..', 'packages', packageName);
+  const shadcnIndexPath = join(packageDir, 'index.tsx');
+  const indexContent = await readFile(shadcnIndexPath, 'utf-8');
+  const exportedComponents =
+    indexContent
+      .match(/export\s+\*\s+from\s+['"]\.\/components\/ui\/([a-z0-9-]+)['"]/gi)
+      ?.map(line => line.match(/\.\/components\/ui\/([a-z0-9-]+)/i)?.[1])
+      .filter(Boolean) || [];
+
+  if (exportedComponents.includes(packageName) && !indexContent.includes(`export * from './components/ui/${packageName}'`)) {
+    return {
+      $schema: 'https://ui.shadcn.com/schema/registry.json',
+      homepage: `https://pal-ui.beamitpal.com/components/${packageName}`,
+      name: packageName,
+      type: 'registry:ui',
+      author: 'Amit <me@beamitpal.com>',
+      dependencies: [],
+      devDependencies: [],
+      registryDependencies: [packageName],
+      files: []
+    };
+  }
+
   const packagePath = join(packageDir, 'package.json');
   const packageJson = JSON.parse(await readFile(packagePath, 'utf-8'));
 
