@@ -22,7 +22,7 @@
   "@tiptap/pm": "^2.14.0",
   "@tiptap/react": "^2.14.0",
   "@tiptap/starter-kit": "^2.14.0",
-  "@tiptap/suggestion": "^2.14.0",
+  "@tiptap/suggestion": "^3.0.9",
   "fuse.js": "^7.1.0",
   "lowlight": "^3.3.0",
   "lucide-react": "^0.539.0",
