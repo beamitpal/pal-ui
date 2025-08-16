@@ -3,8 +3,9 @@ import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
 export const getPackage = async (packageName: string) => {
-  const packageDir = join(process.cwd(), '..', '..', 'packages', packageName);
-  const shadcnIndexPath = join(packageDir, 'index.tsx');
+  const mainpackageDir = join(process.cwd(), '..', '..', 'packages');
+  const packageDir = join(mainpackageDir, packageName);
+  const shadcnIndexPath = join(mainpackageDir,'shadcn-ui','index.tsx');
   const indexContent = await readFile(shadcnIndexPath, 'utf-8');
   const exportedComponents =
     indexContent
