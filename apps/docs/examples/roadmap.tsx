@@ -1,17 +1,7 @@
 'use client';
 
 import { faker } from '@faker-js/faker';
-import {
-  CalendarBody,
-  CalendarDate,
-  CalendarDatePagination,
-  CalendarDatePicker,
-  CalendarHeader,
-  CalendarItem,
-  CalendarMonthPicker,
-  CalendarProvider,
-  CalendarYearPicker,
-} from '@repo/calendar';
+
 import {
   GanttCreateMarkerTrigger,
   GanttFeatureItem,
@@ -296,22 +286,6 @@ const latestYear =
     .sort()
     .at(-1) ?? new Date().getFullYear();
 
-const CalendarView = () => (
-  <CalendarProvider>
-    <CalendarDate>
-      <CalendarDatePicker>
-        <CalendarMonthPicker />
-        <CalendarYearPicker end={latestYear} start={earliestYear} />
-      </CalendarDatePicker>
-      <CalendarDatePagination />
-    </CalendarDate>
-    <CalendarHeader />
-    <CalendarBody features={exampleFeatures}>
-      {({ feature }) => <CalendarItem feature={feature} key={feature.id} />}
-    </CalendarBody>
-  </CalendarProvider>
-);
-
 const ListView = () => {
   const [features, setFeatures] = useState(exampleFeatures);
 
@@ -565,12 +539,6 @@ const Example = () => {
       label: 'Gantt',
       icon: GanttChartSquareIcon,
       component: GanttView,
-    },
-    {
-      id: 'calendar',
-      label: 'Calendar',
-      icon: CalendarIcon,
-      component: CalendarView,
     },
     {
       id: 'list',
