@@ -66,9 +66,6 @@ importers:
       '@repo/banner':
         specifier: workspace:*
         version: link:../../packages/banner
-      '@repo/calendar':
-        specifier: workspace:*
-        version: link:../../packages/calendar
       '@repo/choicebox':
         specifier: workspace:*
         version: link:../../packages/choicebox
@@ -123,9 +120,6 @@ importers:
       '@repo/marquee':
         specifier: workspace:*
         version: link:../../packages/marquee
-      '@repo/mini-calendar':
-        specifier: workspace:*
-        version: link:../../packages/mini-calendar
       '@repo/pill':
         specifier: workspace:*
         version: link:../../packages/pill
@@ -281,93 +275,6 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
-  packages/accordion:
-    dependencies:
-      '@radix-ui/react-accordion':
-        specifier: ^1.2.12
-        version: 1.2.12(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@repo/shadcn-ui':
-        specifier: workspace:*
-        version: link:../shadcn-ui
-      lucide-react:
-        specifier: ^0.539.0
-        version: 0.539.0(react@19.1.0)
-      react:
-        specifier: ^19.1.0
-        version: 19.1.0
-      react-dom:
-        specifier: ^19.1.0
-        version: 19.1.0(react@19.1.0)
-    devDependencies:
-      '@repo/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript-config
-      '@types/react':
-        specifier: ^19.1.8
-        version: 19.1.8
-      '@types/react-dom':
-        specifier: ^19.1.6
-        version: 19.1.6(@types/react@19.1.8)
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-
-  packages/alert:
-    dependencies:
-      '@repo/shadcn-ui':
-        specifier: workspace:*
-        version: link:../shadcn-ui
-      class-variance-authority:
-        specifier: ^0.7.1
-        version: 0.7.1
-      react:
-        specifier: ^19.1.0
-        version: 19.1.0
-      react-dom:
-        specifier: ^19.1.0
-        version: 19.1.0(react@19.1.0)
-    devDependencies:
-      '@repo/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript-config
-      '@types/react':
-        specifier: ^19.1.8
-        version: 19.1.8
-      '@types/react-dom':
-        specifier: ^19.1.6
-        version: 19.1.6(@types/react@19.1.8)
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-
-  packages/alert-dialog:
-    dependencies:
-      '@radix-ui/react-alert-dialog':
-        specifier: ^1.1.15
-        version: 1.1.15(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@repo/shadcn-ui':
-        specifier: workspace:*
-        version: link:../shadcn-ui
-      react:
-        specifier: ^19.1.0
-        version: 19.1.0
-      react-dom:
-        specifier: ^19.1.0
-        version: 19.1.0(react@19.1.0)
-    devDependencies:
-      '@repo/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript-config
-      '@types/react':
-        specifier: ^19.1.8
-        version: 19.1.8
-      '@types/react-dom':
-        specifier: ^19.1.6
-        version: 19.1.6(@types/react@19.1.8)
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-
   packages/announcement:
     dependencies:
       '@repo/shadcn-ui':
@@ -418,37 +325,6 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
-  packages/badge:
-    dependencies:
-      '@repo/shadcn-ui':
-        specifier: workspace:*
-        version: link:../shadcn-ui
-      class-variance-authority:
-        specifier: ^0.7.1
-        version: 0.7.1
-      radix-ui:
-        specifier: ^1.4.3
-        version: 1.4.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      react:
-        specifier: ^19.1.0
-        version: 19.1.0
-      react-dom:
-        specifier: ^19.1.0
-        version: 19.1.0(react@19.1.0)
-    devDependencies:
-      '@repo/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript-config
-      '@types/react':
-        specifier: ^19.1.8
-        version: 19.1.8
-      '@types/react-dom':
-        specifier: ^19.1.6
-        version: 19.1.6(@types/react@19.1.8)
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-
   packages/banner:
     dependencies:
       '@radix-ui/react-use-controllable-state':
@@ -457,71 +333,6 @@ importers:
       '@repo/shadcn-ui':
         specifier: workspace:*
         version: link:../shadcn-ui
-      lucide-react:
-        specifier: ^0.539.0
-        version: 0.539.0(react@19.1.0)
-      react:
-        specifier: ^19.1.0
-        version: 19.1.0
-      react-dom:
-        specifier: ^19.1.0
-        version: 19.1.0(react@19.1.0)
-    devDependencies:
-      '@repo/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript-config
-      '@types/react':
-        specifier: ^19.1.8
-        version: 19.1.8
-      '@types/react-dom':
-        specifier: ^19.1.6
-        version: 19.1.6(@types/react@19.1.8)
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-
-  packages/button:
-    dependencies:
-      '@repo/shadcn-ui':
-        specifier: workspace:*
-        version: link:../shadcn-ui
-      class-variance-authority:
-        specifier: ^0.7.1
-        version: 0.7.1
-      radix-ui:
-        specifier: ^1.4.3
-        version: 1.4.3(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      react:
-        specifier: ^19.1.0
-        version: 19.1.0
-      react-dom:
-        specifier: ^19.1.0
-        version: 19.1.0(react@19.1.0)
-    devDependencies:
-      '@repo/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript-config
-      '@types/react':
-        specifier: ^19.1.8
-        version: 19.1.8
-      '@types/react-dom':
-        specifier: ^19.1.6
-        version: 19.1.6(@types/react@19.1.8)
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-
-  packages/calendar:
-    dependencies:
-      '@repo/shadcn-ui':
-        specifier: workspace:*
-        version: link:../shadcn-ui
-      date-fns:
-        specifier: ^4.1.0
-        version: 4.1.0
-      jotai:
-        specifier: ^2.12.5
-        version: 2.12.5(@types/react@19.1.8)(react@19.1.0)
       lucide-react:
         specifier: ^0.539.0
         version: 0.539.0(react@19.1.0)
@@ -1215,43 +1026,6 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
-  packages/mini-calendar:
-    dependencies:
-      '@radix-ui/react-use-controllable-state':
-        specifier: ^1.2.2
-        version: 1.2.2(@types/react@19.1.8)(react@19.1.0)
-      '@repo/shadcn-ui':
-        specifier: workspace:*
-        version: link:../shadcn-ui
-      date-fns:
-        specifier: ^4.1.0
-        version: 4.1.0
-      lucide-react:
-        specifier: ^0.539.0
-        version: 0.539.0(react@19.1.0)
-      radix-ui:
-        specifier: ^1.4.2
-        version: 1.4.2(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      react:
-        specifier: ^19.1.0
-        version: 19.1.0
-      react-dom:
-        specifier: ^19.1.0
-        version: 19.1.0(react@19.1.0)
-    devDependencies:
-      '@repo/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript-config
-      '@types/react':
-        specifier: ^19.1.8
-        version: 19.1.8
-      '@types/react-dom':
-        specifier: ^19.1.6
-        version: 19.1.6(@types/react@19.1.8)
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-
   packages/pill:
     dependencies:
       '@repo/shadcn-ui':
@@ -1381,31 +1155,6 @@ importers:
       '@codesandbox/sandpack-react':
         specifier: ^2.20.0
         version: 2.20.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@repo/shadcn-ui':
-        specifier: workspace:*
-        version: link:../shadcn-ui
-      react:
-        specifier: ^19.1.0
-        version: 19.1.0
-      react-dom:
-        specifier: ^19.1.0
-        version: 19.1.0(react@19.1.0)
-    devDependencies:
-      '@repo/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript-config
-      '@types/react':
-        specifier: ^19.1.8
-        version: 19.1.8
-      '@types/react-dom':
-        specifier: ^19.1.6
-        version: 19.1.6(@types/react@19.1.8)
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-
-  packages/shadcn:
-    dependencies:
       '@repo/shadcn-ui':
         specifier: workspace:*
         version: link:../shadcn-ui
