@@ -1,6 +1,6 @@
 import { Loader2Icon } from "lucide-react";
 
-import { Button } from "@repo/button";
+import { Button } from "@/components/ui/button";
 
 const ButtonLoading = () => (
   <Button size="sm" disabled>

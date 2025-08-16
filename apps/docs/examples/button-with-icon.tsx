@@ -1,6 +1,6 @@
 import { IconGitBranch } from "@tabler/icons-react";
 
-import { Button } from "@repo/button";
+import { Button } from "@/components/ui/button";
 
 const ButtonWithIcon = () => (
   <Button variant="outline" size="sm">

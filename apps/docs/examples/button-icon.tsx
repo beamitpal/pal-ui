@@ -1,5 +1,5 @@
 import { ChevronRightIcon } from "lucide-react";
-import { Button } from "@repo/button";
+import { Button } from "@/components/ui/button";
 
 const ButtonIcon = () => (
   <Button variant="secondary" size="icon" className="size-8">

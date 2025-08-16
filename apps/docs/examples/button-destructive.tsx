@@ -1,4 +1,4 @@
-import { Button } from "@repo/button";
+import { Button } from "@/components/ui/button";
 
 const ButtonDestructive = () => (
   <Button variant="destructive">Destructive</Button>
