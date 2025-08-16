@@ -11,7 +11,7 @@
     "lucide-react": "^0.539.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "shiki": "3.4.2"
+    "shiki": "3.9.2"
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
